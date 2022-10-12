@@ -1,123 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Captions-R-Us </title>
+        <link rel="icon" type="image/png" href="img/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    
-    
-</script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Captions-R-Us </title>
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-      
-
-
-
-    <header>
-        
-        
-    
-<!-- Switch -->
-<div class="theme-switch-wrapper">
-    <span id="toggle-icon">
-        <span class="toggle-text">Light Mode</span>
-        <i class="fas fa-sun"></i>
-    </span>
-    <label class="theme-switch">
-        <input type="checkbox">
-        <div class="slider round"></div>
-    </label>
-</div>
-
-    <!-- Navigation -->
-    <nav id="nav">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#upload">UPLOAD</a>
-        <a href="/"><img src="img/logo.png"></a>
-
-    </nav>
-
-    <!-- Home Section -->
-    <section id = "home">
-        <div class="title-group">
-            <h1>Captions-R-Us</h1>
-            <h2>Welcome to Captions-R-Us</h2>
-            
-           
+    <body>
+        <!-- Switch: light and dark mode -->
+        <div class="theme-switch-wrapper">
+            <span id="toggle-icon">
+                <span class="toggle-text">Light Mode</span>
+                <i class="fas fa-sun"></i>
+            </span>
+            <label class="theme-switch">
+                <input type="checkbox">
+                <div class="slider round"></div>
+            </label>
         </div>
-    </section>
-            <section id = "about">
-                <h1> Why is it important? </h1>
-                
-                        
-            </section>
 
+        <!-- Navigation bar buttons -->
+        <nav id="nav">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="upload.html">UPLOAD</a>
+            <a href="/"><img src="img/logo.png"></a>
+        </nav>
+
+        <!-- Home Section -->
+        <section id = "home">
+            <div class="title-group">
+                <h1>Captions-R-Us</h1>
+                <h2>Welcome to Captions-R-Us</h2>
+            </div>
         </section>
 
-     
+        <!-- About Section
+        <section id = "about">
+            <h1> Why is it important? </h1>               
+        </section> -->
 
-
-
-
-            <!-- upload section -->
-            <section id = "upload">
-                <h1>Choose a file or drag it here. </h1>
-                <body>
-                    <div class="wrapper">
-                      
-                      <form action="#">
-                        <input class="file-input" type="file" name="file" hidden>
-                        <i class="fas fa-cloud-upload-alt"></i>
-                        <p>Browse File to Upload</p>
-                      </form>
-                      <section class="progress-area"></section>
-                      <section class="uploaded-area"></section>
-                    </div>
-
-
-
-
-
-
-
-                    <script src="script.js"></script>
-                  </body>
-                   
-              
-                  </form>
-                  
-
-
+        
+        <!-- upload section
+        <section id = "upload">
+            <h1>Choose a file or drag it here. </h1>
+            <div class="wrapper">  
+                <form action="#">
+                    <input class="file-input" type="file" name="file" hidden>
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Browse File to Upload</p>
                 </form>
+                    <section class="progress-area"></section>
+                    <section class="uploaded-area"></section>
+            </div>
+            <script src="script.js"></script>
+        </section> -->
 
-            </section>
+        <!-- Script -->
+        <script src="script.js"></script>
 
-            
-
-                
-
-
-    </section>
-    <!-- Script -->
-    <script src="script.js"></script>
-</body>
-
-
-
-</body>
-
-
-
-
-
-
-
-
-   
+    </body>
 </html>
+
+
+<!-- heroku hosting service -->
+<!-- import express library in javascript -->
+<!-- mongodb atlas: cloud database to upload video to -->
